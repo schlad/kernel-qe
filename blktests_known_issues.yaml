@@ -1,3 +1,7 @@
 ---
 
 blktests:
+  loop/006:
+  - product: opensuse:Tumbleweed
+    skip: 1
+    message: Unstable, makes udev too busy. poo#204738
